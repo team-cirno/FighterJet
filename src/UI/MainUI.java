@@ -45,8 +45,8 @@ public class MainUI extends JFrame {
         this.setVisible(true);
     }
 
-    public void update(Matrix matrix) {
-
+    public void update() {
+        this.repaint();
     }
 
     public void paint(Graphics g){

@@ -37,7 +37,7 @@ public class Core extends Thread{
         Core.getLogger().Log(this,"Main Loop start");
         while (LIFE) {
             matrix.update();
-            mainUI.update(matrix);
+            mainUI.update();
         }
     }
 
@@ -46,7 +46,6 @@ public class Core extends Thread{
     }
 
     public void paintMartix(Graphics g, JPanel mainUI) {
-        logger.Log(this,"Start paint");
         matrix.paint(g,mainUI);
     }
 }

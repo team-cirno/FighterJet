@@ -47,13 +47,13 @@ public class Animetion {
     }
 
     public Image getImage(){
-        if(index>=maxIndex)
+        if(index==maxIndex)
         {
             index=0;
-            return il.get(index);
+            return il.get(maxIndex-1);
         }
         index++;
-        return il.get(index);
+        return il.get(index-1);
     }
 
 }

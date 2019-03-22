@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="910e239a-7643-4eef-aecc-575fd00b177b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Object/Animetion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Object/HeroJet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FighterJet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FighterJet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FighterJet/Core/Core.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FighterJet/Core/Core.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FighterJet/UI/MainUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FighterJet/UI/MainUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Core/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Core.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Object/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Object/Bullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Object/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Object/Fighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Object/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Object/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Object/Animetion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Object/Animetion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Object/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Object/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tools/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tools/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tools/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tools/Logger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UI/MainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/MainUI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,11 +34,12 @@
         <entry file="file://$PROJECT_DIR$/src/Core/Core.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="436">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#649#650#0" expanded="true" />
                 <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#1046#1047#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,12 +78,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UI/MainUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state relative-caret-position="286">
+              <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#678#679#0" expanded="true" />
                 <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#1218#1219#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Object/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="59" column="44" lean-forward="true" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+            <state relative-caret-position="406">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Object/Animetion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+            <state relative-caret-position="235">
+              <caret line="29" column="64" lean-forward="true" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#866#867#0" expanded="true" />
@@ -164,11 +156,11 @@
         <option value="$PROJECT_DIR$/src/Object/Bullet.java" />
         <option value="$PROJECT_DIR$/src/Tools/Logger.java" />
         <option value="$PROJECT_DIR$/src/Tools/Config.java" />
-        <option value="$PROJECT_DIR$/src/Core/Core.java" />
-        <option value="$PROJECT_DIR$/src/UI/MainUI.java" />
-        <option value="$PROJECT_DIR$/src/Object/Animetion.java" />
         <option value="$PROJECT_DIR$/src/Object/GameObject.java" />
         <option value="$PROJECT_DIR$/src/Object/HeroJet.java" />
+        <option value="$PROJECT_DIR$/src/UI/MainUI.java" />
+        <option value="$PROJECT_DIR$/src/Object/Animetion.java" />
+        <option value="$PROJECT_DIR$/src/Core/Core.java" />
         <option value="$PROJECT_DIR$/src/Object/Matrix.java" />
       </list>
     </option>
@@ -241,7 +233,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553289320157" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553289802669" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -300,7 +292,7 @@
       <window_info anchor="bottom" id="Dependency Viewer" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -308,7 +300,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -379,13 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tools/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/red/hero1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -394,32 +379,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/red/hero0.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/MainUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Object/Animetion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Object/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -440,14 +399,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tools/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/MainUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Object/Animetion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="29" column="64" lean-forward="true" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Core/Core.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#649#650#0" expanded="true" />
             <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -464,8 +458,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Object/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="59" column="44" lean-forward="true" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+        <state relative-caret-position="406">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

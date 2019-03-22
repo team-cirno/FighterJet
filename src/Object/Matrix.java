@@ -59,7 +59,6 @@ public class Matrix {
 
     public void paint(Graphics g, JPanel j){
         for(GameObject x : gl){
-            System.out.println(x);
             g.drawImage(x.getImage(), x.getX(),x.getY(),x.getW(),x.getH(),j);
         }
     }
