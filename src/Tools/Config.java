@@ -1,3 +1,6 @@
+package Tools;
+
+
 public class Config {
 
     //Enable DebugMod to have real time feed back of the proglam
