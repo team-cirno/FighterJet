@@ -4,7 +4,7 @@ package Tools;
 public class Config {
 
     //Enable DebugMod to have real time feed back of the proglam
-    public static final boolean DebugMod = false;
+    public static final boolean DebugMod = true;
 
     //Enable LoggerMod to have Log showen while runing the proglam
     public static final boolean LoggerMod = true;

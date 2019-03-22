@@ -1,8 +1,9 @@
 package Object;
 
 import java.awt.*;
+import java.util.ArrayList;
 
-public class GameObject {
+public abstract class GameObject {
 
 
 
@@ -10,11 +11,13 @@ public class GameObject {
 
     Integer teamtag;
 
-    //ObjectImage image;
+    Animetion anime;
 
-    Integer x,y,w,l,vx,vy;
+    Integer x,y,w,h,vx,vy;
 
     Integer life;
+
+    ArrayList<String> sl;
 
     public String getTitle() {
         return Title;
@@ -56,12 +59,12 @@ public class GameObject {
         this.w = w;
     }
 
-    public Integer getL() {
-        return l;
+    public Integer getH() {
+        return h;
     }
 
     public void setL(Integer l) {
-        this.l = l;
+        this.h = l;
     }
 
     public Integer getVx() {
@@ -88,16 +91,24 @@ public class GameObject {
         this.life = life;
     }
 
-    public GameObject(String title, Integer teamtag, Integer x, Integer y, Integer w, Integer l, Integer vx, Integer vy, Integer life) {
+    public Image getImage(){
+        return anime.getImage();
+    }
+
+    public void dmg(){
+        this.life--;
+    }
+
+    public abstract void load();
+
+    public GameObject(String title, Integer x, Integer y, Integer vx, Integer vy) {
         Title = title;
-        this.teamtag = teamtag;
         this.x = x;
         this.y = y;
-        this.w = w;
-        this.l = l;
         this.vx = vx;
         this.vy = vy;
-        this.life = life;
+        this.teamtag=0;
+        life=1;
     }
 
     @Override
@@ -105,11 +116,11 @@ public class GameObject {
         return "GameObject{" +
                 "Title='" + Title + '\'' +
                 ", teamtag=" + teamtag +
-                //", image=" + image +
+                ", anime=" + anime +
                 ", x=" + x +
                 ", y=" + y +
                 ", w=" + w +
-                ", l=" + l +
+                ", h=" + h +
                 ", vx=" + vx +
                 ", vy=" + vy +
                 ", life=" + life +

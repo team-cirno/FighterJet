@@ -32,6 +32,7 @@ public class Logger {
 
     public Logger(){
         this.Lines = new ArrayList<Line>();
+        this.Log(this,"Logger is on");
     }
 
     public void Log(Object o, String info){
