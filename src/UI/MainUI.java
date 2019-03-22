@@ -29,4 +29,12 @@ public class MainUI extends JFrame {
     public void update(Matrix matrix) {
 
     }
+
+    public void paint(Graphics g){
+        if(g instanceof Graphics2D){
+            Graphics2D g2d = (Graphics2D) g;
+            g2d.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING,RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
+        }
+        g.drawString("amazing!",100,100);
+    }
 }

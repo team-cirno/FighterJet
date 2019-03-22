@@ -10,7 +10,7 @@ public class GameObject {
 
     Integer teamtag;
 
-    ObjectImage image;
+    //ObjectImage image;
 
     Integer x,y,w,l,vx,vy;
 
@@ -88,10 +88,9 @@ public class GameObject {
         this.life = life;
     }
 
-    public GameObject(String title, Integer teamtag, Object.ObjectImage image, Integer x, Integer y, Integer w, Integer l, Integer vx, Integer vy, Integer life) {
+    public GameObject(String title, Integer teamtag, Integer x, Integer y, Integer w, Integer l, Integer vx, Integer vy, Integer life) {
         Title = title;
         this.teamtag = teamtag;
-        this.image = image;
         this.x = x;
         this.y = y;
         this.w = w;
@@ -106,7 +105,7 @@ public class GameObject {
         return "GameObject{" +
                 "Title='" + Title + '\'' +
                 ", teamtag=" + teamtag +
-                ", image=" + image +
+                //", image=" + image +
                 ", x=" + x +
                 ", y=" + y +
                 ", w=" + w +

@@ -9,18 +9,15 @@ public class Core extends Thread{
     Boolean LIFE;
     Matrix matrix;
     MainUI mainUI;
-    Fighter MainChar;
 
     public Core() {
         this.LIFE = true;
         matrix=new Matrix();
         mainUI=new MainUI("MyGame",400,200);
-        Fighter MainChar = new Fighter();
     }
 
     public void load(){
-
-        matrix.addObject(MainChar);
+        Loader.load(matrix);
         mainUI.display();
     }
 
