@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="910e239a-7643-4eef-aecc-575fd00b177b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/Core/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Core.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Object/Animetion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Object/Animetion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Object/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Object/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/MainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/MainUI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,15 +27,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Core/Core.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="598">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#649#650#0" expanded="true" />
                 <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
                 <element signature="e#1046#1047#0" expanded="true" />
               </folding>
             </state>
@@ -90,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Object/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
+            <state relative-caret-position="885">
               <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -160,13 +158,13 @@
         <option value="$PROJECT_DIR$/src/Object/HeroJet.java" />
         <option value="$PROJECT_DIR$/src/UI/MainUI.java" />
         <option value="$PROJECT_DIR$/src/Object/Animetion.java" />
-        <option value="$PROJECT_DIR$/src/Core/Core.java" />
         <option value="$PROJECT_DIR$/src/Object/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/Core/Core.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="44" />
+    <option name="x" value="-303" />
     <option name="y" value="23" />
     <option name="width" value="1501" />
     <option name="height" value="992" />
@@ -233,7 +231,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553289802669" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553290543925" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -279,8 +277,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="23" width="1501" height="992" extended-state="0" />
-    <editor active="true" />
+    <frame x="-303" y="23" width="1501" height="992" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25633997" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -292,7 +289,7 @@
       <window_info anchor="bottom" id="Dependency Viewer" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" />
+      <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -433,19 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Core/Core.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Object/HeroJet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -458,10 +442,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Object/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
+        <state relative-caret-position="885">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Core.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
           </folding>
         </state>
       </provider>

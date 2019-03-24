@@ -35,9 +35,16 @@ public class Core extends Thread{
 
     public void run() {
         Core.getLogger().Log(this,"Main Loop start");
+        long startTime = System.currentTimeMillis();
+        long cumTime = startTime;
         while (LIFE) {
+            long timePassed = System.currentTimeMillis()-cumTime;
+            cumTime+=timePassed;
+            update(timePassed)
             matrix.update();
             mainUI.update();
+
+
         }
     }
 
