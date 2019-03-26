@@ -6,3 +6,5 @@
 *.xml
 *.iml
 .idea/workspace.xml
+.idea/workspace.xml
+out/production/FighterJet/META-INF/FighterJet.kotlin_module

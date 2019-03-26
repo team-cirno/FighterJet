@@ -40,7 +40,7 @@ public class Core extends Thread{
         while (LIFE) {
             long timePassed = System.currentTimeMillis()-cumTime;
             cumTime+=timePassed;
-            update(timePassed)
+            //update(timePassed)
             matrix.update();
             mainUI.update();
 
